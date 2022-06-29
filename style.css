@@ -1,0 +1,53 @@
+/* UNIVERSAL STYLE */
+
+html,body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-color: white;
+    font-family: 'Nuosu SIL', serif;
+}
+
+/* HEADER */
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+
+.header-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-name {
+    display: flex;
+    width: 50%;
+    padding-left: 1rem;
+    font-size: 1rem;
+
+}
+
+.main-nav {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+header ul li {
+    display: inline;
+    padding-right: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    vertical-align: bottom;
+    line-height: 1.6;
+    color: black;
+}
+
