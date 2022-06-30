@@ -138,6 +138,10 @@ td {
     font-weight: bold;
 }
 
+.projects ul li a{
+    color: blue;
+}
+
 /* SKILLS */ 
 
 #skills-section {
@@ -156,6 +160,11 @@ td {
 .skills h2 {
     font-family: 'Roboto Slab', serif;
     text-align: center;
+    margin-bottom: 0;
+}
+
+.skills ul {
+    margin: 0;
 }
 .skills ul li {
     display: inline;
@@ -192,4 +201,23 @@ td {
 
 .contact-me nav img {
     height: 30px;
+}
+
+/* NIGHT MODE */
+
+#night-mode-section {
+    display: flex;
+    width: 100%;
+}
+
+.night-mode-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.night-mode {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }

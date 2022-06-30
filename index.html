@@ -1,5 +1,6 @@
 <html>
 <head>
+
     <title>Dylan Gee's Portfolio</title>
     <meta charset="UTF-8">
     <link href="style.css" rel = 'stylesheet'>
@@ -9,6 +10,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
+    <script>
+        function hello() {
+          alert('Hello World');
+        }
+      </script>
     <!-- HEADER -->
 
     <header>
@@ -56,15 +62,15 @@
                 <figcaption>
                     <table class = 'basic-info'>
                         <tr>
-                            <td>
+                            <td class = 'info'>
                                 <span class = 'name'>Name:</span>
                             </td>
-                            <td>
+                            <td class = 'info'>
                                 <span class = 'name'> Dylan Gee</span>
                             </td>                           
                         </tr>
                         <tr>
-                            <td>
+                            <td class = 'info'>
                                 <span class = 'age'>Age:</span>
                             </td>
                             <td>
@@ -94,11 +100,11 @@
             <div class = 'projects'>
                 <h2>Projects</h2> 
                 <ul>
-                    <li><a href = "https://github.com/DylanGee3742/MysteriousOrganism/blob/444f7b9b0472d6cb4caa3612a52dc0df8edeba81/MysteriousOrganism.js" target = "_blank">Mysterious Organism</a></li>
-                    <li><a href = "https://github.com/DylanGee3742/MyOwnCompany/tree/main/Company%20WebPage" target = "_blank">My Own Company</a></li>
-                    <li><a href = "https://github.com/DylanGee3742/CreditCardChecker/blob/6357760989e69c6e2b08938410aac663be9de9b3/CreditCardChecker.js" target = "_blank">Credit Card Checker</a></li>
-                    <li><a href = "https://github.com/DylanGee3742/Fotomatic">Fotomatic</a></li>
-                    <li><a href = "https://github.com/DylanGee3742/HolidayPlanner/blob/96019d134d0975ebc73f1b8db0efd16f8eaef8ea/holidayPlanner.js" target = "_blank">Holiday Planner</a></li>
+                    <li><a href = "https://github.com/DylanGee3742/MysteriousOrganism/blob/444f7b9b0472d6cb4caa3612a52dc0df8edeba81/MysteriousOrganism.js" target = "_blank" id = "mysterious-organism">Mysterious Organism</a></li>
+                    <li><a href = "https://github.com/DylanGee3742/MyOwnCompany/tree/main/Company%20WebPage" target = "_blank" id = 'my-own-company'>My Own Company</a></li>
+                    <li><a href = "https://github.com/DylanGee3742/CreditCardChecker/blob/6357760989e69c6e2b08938410aac663be9de9b3/CreditCardChecker.js" target = "_blank" id = 'credit-card-checker'>Credit Card Checker</a></li>
+                    <li><a href = "https://github.com/DylanGee3742/Fotomatic" target = "_blank" id = 'fotomatic'>Fotomatic</a></li>
+                    <li><a href = "https://github.com/DylanGee3742/HolidayPlanner/blob/96019d134d0975ebc73f1b8db0efd16f8eaef8ea/holidayPlanner.js" target = "_blank" id = 'holiday-planner'>Holiday Planner</a></li>
                 </ul>
             </div>
         </div>
@@ -122,5 +128,14 @@
     </section>
 
     <!-- JS -->
+    <section id = "night-mode">
+        <div class = "night-mode-container">
+            <div class = "night-mode">
+                <button type="button">Night Mode!</button>
+            </div>
+        </div>
+    </section>
+
+    <script  src="interactivity.js"></script>
 </body>
 </html>
