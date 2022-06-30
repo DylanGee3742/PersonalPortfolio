@@ -77,13 +77,13 @@ nav a {
 .img-container {
     display: flex;
     justify-content: center;
-    padding-left: 6rem;
+    padding-left: 4rem;
 }
 
 img {
     height: 20rem;
     padding-top: 2.5rem;
-    padding-right: 5rem;
+    padding-right: 3rem;
     margin: 0.5rem;
 }
 
@@ -97,7 +97,7 @@ td {
 
 /* PROJECTS */
 
-.project-section {
+#project-section {
     display: flex;
     width: 100%;
     margin-top: 1rem;
@@ -140,7 +140,7 @@ td {
 
 /* SKILLS */ 
 
-.skills-section {
+#skills-section {
     display: flex;
     width: 100%;
     margin-top: 2em;
@@ -162,5 +162,34 @@ td {
 }
 
 .skills  img {
+    height: 30px;
+}
+
+/* CONTACT ME */ 
+
+.contact-me-section {
+    display: flex;
+    width: 100%;
+}
+
+.contact-me-container {
+    display: flex;
+    width: 100%;
+    padding-left: 1rem;
+}
+
+.contact-me h2 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.contact-me p {
+    font-family: 'Roboto Slab', serif
+}
+
+.contact-me nav {
+    display: inline;
+}
+
+.contact-me nav img {
     height: 30px;
 }
