@@ -107,18 +107,20 @@ td {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
     width: 100%;
 }
 .projects h2 {
     text-align: center;
     font-family: 'Roboto Slab', serif;
+    padding-bottom: 1rem;
 }
 
 .projects ul {
     list-style: none;
 }
 .projects ul li {
+    display: inline;
+    padding-right: 1rem;
     padding-bottom: 0.5rem;
     font-family: 'Montserrat', sans-serif;
 
@@ -134,4 +136,31 @@ td {
     text-decoration: none;
     color: black;
     font-weight: bold;
+}
+
+/* SKILLS */ 
+
+.skills-section {
+    display: flex;
+    width: 100%;
+    margin-top: 2em;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.skills h2 {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+.skills ul li {
+    display: inline;
+}
+
+.skills  img {
+    height: 30px;
 }
