@@ -8,6 +8,7 @@ html,body {
     font-family: 'Nuosu SIL', serif;
 }
 
+
 /* HEADER */
 
 header {
@@ -221,3 +222,23 @@ td {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
+/* DAY MODE */
+
+#day-mode-section {
+    display: flex;
+    width: 100%;
+}
+
+.day-mode-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.day-mode {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
